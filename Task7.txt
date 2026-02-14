@@ -158,7 +158,7 @@ Handle using:
 .catch()
 .finally()
 
-let num = 15;   // change this to test
+let num = 15;
 
 let myPromise = new Promise(function (resolve, reject) {
 
@@ -264,5 +264,6 @@ three();
 one
 three
 two
+
 
 explaination:setTimeout(two, 0) , It goes to web api and then to callback queue. thats the reason the two prints after three.
